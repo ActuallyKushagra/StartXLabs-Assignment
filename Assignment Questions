@@ -20,29 +20,7 @@ document.write("Hours = " + hrs + " Minutes = " + mins + " seconds = " + sec);
 
 
 
-//Q3
-
-
-<!doctype html>
-<title> q3 </title>
-<head> 
-<script>
-var totalstrings = prompt("total no. of strings");
-var arr = new Array();
-for(i = 1; i <= totalstrings; i++) {
-	arr.push(prompt("enter the strings"));
-	}
-        arr.sort();
-        document.write("after sorting " + arr);
-</script></head>
-<body></body>
-</html>
-
-
-
-
 //Q2
-
 
 
 <!doctype html>
@@ -71,3 +49,29 @@ else {
 </script></head>
 <body></body>
 </html>
+
+
+
+
+//Q3
+
+
+<!doctype html>
+<title> q3 </title>
+<head> 
+<script>
+var totalstrings = prompt("total no. of strings");
+var arr = new Array();
+for(i = 1; i <= totalstrings; i++) {
+	arr.push(prompt("enter the strings"));
+	}
+        arr.sort();
+        document.write("after sorting " + arr);
+</script></head>
+<body></body>
+</html>
+
+
+
+
+
