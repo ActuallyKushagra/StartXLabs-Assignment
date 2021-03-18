@@ -1,0 +1,73 @@
+//Programs made using apache netbeans IDE 12.1
+
+
+//Q1
+
+
+<!doctype html>
+<title> q1 </title>
+<head> 
+<script>
+var timeinserted = prompt("Insert time in seconds");
+var hrs = Math.floor(timeinserted / 60 / 60); 
+var mins = Math.floor(timeinserted / 60) - (hrs * 60);
+var sec = timeinserted % 60;
+document.write("Hours = " + hrs + " Minutes = " + mins + " seconds = " + sec); 
+</script></head>
+<body></body>
+</html>
+
+
+
+
+//Q3
+
+
+<!doctype html>
+<title> q3 </title>
+<head> 
+<script>
+var totalstrings = prompt("total no. of strings");
+var arr = new Array();
+for(i = 1; i <= totalstrings; i++) {
+	arr.push(prompt("enter the strings"));
+	}
+        arr.sort();
+        document.write("after sorting " + arr);
+</script></head>
+<body></body>
+</html>
+
+
+
+
+//Q2
+
+
+
+<!doctype html>
+<title> q3 </title>
+<head> 
+<script>
+var l = prompt("enter l");
+var r = prompt("emter r");
+var arr = new Array();
+            for(i = l; i<=r; i++) {
+                document.write(i + "<br> ");
+                arr.push(i);
+               
+            }
+            document.write(arr);
+arr[i] ^= l ^ i ^ r; 
+if(i%2==0) {
+    document.write("even");
+}
+else if(i%2==1) {
+    document.write("odd");
+}
+else {
+    document.write("Something went wrong");
+}
+</script></head>
+<body></body>
+</html>
